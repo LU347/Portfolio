@@ -5,6 +5,12 @@ import About from './pages/About';
 
 //TODO: Change to router
 function App() {
+  const mainStyles = {
+    height: '100vh', 
+    margin: '0',
+    padding: '0',
+  };
+
   let component
   switch(window.location.pathname) {
     case "/":
@@ -22,8 +28,10 @@ function App() {
   }
   return (
    <>
-    <Navbar />
-    {component}
+    <main style={mainStyles}>
+      <Navbar />
+      {component}
+    </main>
    </>
   );
 }
