@@ -15,12 +15,9 @@
 }
 
 body {
-  background-image: url(./images/background.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 'center';
-  image-rendering: optimizeQuality;
   padding-bottom: 50px;
+  background: rgb(56,122,140);
+  background: linear-gradient(60deg, rgba(56,122,140,1) -30%, rgba(0,0,0,1) 50%);
 }
 
 .nav {
