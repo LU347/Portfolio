@@ -19,9 +19,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 'center';
-  position: left top;
-  overflow: hidden;
   image-rendering: optimizeQuality;
+  padding-bottom: 50px;
 }
 
 .nav {
@@ -176,48 +175,38 @@ button:hover {
 }
 
 .card img {
-  width: 100%;
+  width: 500px;
   height: 100%;
   border-radius: 10px;
+  object-fit: cover;
   box-shadow: 0 3px 40px rgba(112, 112, 112, 0.541);
-}
-
-.gradient-overlay {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), black);
-  width: inherit;
-  height: inherit;
-  opacity: .3;
-  position: absolute;
-  border-radius: 8px;
-  pointer-events: none;
 }
 
 .project-grid-wrapper {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 500px 500px;
   gap: 1.5rem;
 }
 
 .project-info {
+  align-items: center;
+  font-family: "M PLUS Rounded 1c";
   margin: auto;
-  margin-left: 10px;
-  width: absolute;
+  width: inherit;
   align-self: flex-end;
   position: absolute;
   border-radius: 5px;
-  -webkit-text-stroke-width: .75px;
-  -webkit-text-stroke-color: black;
+  background-color: #09090989;
 }
 
 .project-info h3 {
   margin-right: auto;
-  font-family: "Single Day", cursive;
   font-size: 1.5rem;
   text-decoration: none;
+  margin: 1px;
 }
 
 .project-info h4 {
-  font-family: "Single Day", cursive;
   margin-right: auto;
 }
 

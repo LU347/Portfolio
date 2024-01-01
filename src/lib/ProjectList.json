@@ -1,0 +1,30 @@
+[
+    {
+      "name": "Study with Me",
+      "date": "Fall 2023",
+      "image": "../images/ttr.png",
+      "site-link": "https://study-at.vercel.app/",
+      "repository-link": "https://github.com/LU347/StudyWithMe"
+    },
+    {
+      "name": "All Fangs on Deck",
+      "date": "Fall 2023",
+      "image": "",
+      "site-link": "",
+      "repository-link": "https://github.com/NicoletteAL/All-Fangs-On-Deck"
+    },
+    {
+      "name": "Botanical Buddies",
+      "date": "Fall 2023",
+      "image": "",
+      "site-link": "",
+      "repository-link": "https://github.com/LU347/Botanical-Buddies"
+    },
+    {
+      "name": "Teapot Tycoon Remastered",
+      "date": "Summer 2023",
+      "image": "../images/ttr.png",
+      "site-link": "https://www.roblox.com/games/13462285447/Teapot-Tycoon-Remastered-Alpha-v1-77",
+      "repository-link": ""
+    }
+  ]
