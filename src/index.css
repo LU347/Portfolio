@@ -11,13 +11,15 @@
   font-family: "Silkscreen";
   color: #fff;
   caret-color: transparent;
-  font-size: 1rem;
+  font-size: 1.5vw;
 }
 
 body {
   padding-bottom: 50px;
-  background: rgb(56,122,140);
-  background: linear-gradient(60deg, rgba(56,122,140,1) -30%, rgba(0,0,0,1) 50%);
+  background: 
+    linear-gradient(to left bottom, #000000, #171717, #1f262b, #293f4e, #2e5c71),
+	  url(./images/noise.svg);
+  background-blend-mode: multiply;
 }
 
 .nav {
@@ -147,7 +149,7 @@ button:hover {
 
 .site-title {
   font-family: "M PLUS Rounded 1c";
-  font-size: 25px;
+  font-size: 2.5vw;
   margin: auto;
   color: #fff;
   background-color: transparent;
