@@ -156,6 +156,12 @@ button:hover {
   pointer-events: none;
 }
 
+.bio-pic {
+  border-radius: 90%;
+  max-width: 991px;
+  max-height: 479px;
+}
+
 .container {
   margin: auto;
   max-width: 50rem;
