@@ -8,7 +8,7 @@ const Home = () => {
             <div class="content">
                 <div class="container">
                     <p class="description">
-                        Hello, I am a Computer Science student that is passionate about Web and Game development. I am someone that loves learning new things such as spoken languages, musical instruments, and random subjects.
+                        Lucile is someone that constantly strive for personal growth and self-reflection. She is passionate about game development and loves learning new things.
                     </p>
                 </div>
                 <div class="container">

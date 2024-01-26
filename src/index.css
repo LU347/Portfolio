@@ -16,7 +16,7 @@
 
 body {
   padding-bottom: 50px;
-  background: 
+  background-image: 
     linear-gradient(to left bottom, #000000, #171717, #1f262b, #293f4e, #2e5c71),
 	  url(./images/noise.svg);
   background-blend-mode: multiply;
@@ -94,7 +94,7 @@ body {
   padding: 0.5rem;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  background-color: rgb(43, 167, 255);
+  background-color: rgba(43, 167, 255, 0.743);
   border-radius: 0.5rem;
 }
 
@@ -148,12 +148,13 @@ button:hover {
 }
 
 .site-title {
-  font-family: "M PLUS Rounded 1c";
-  font-size: 2rem;
+  font-family: sans-serif;
+  font-size: 1rem;
   margin: auto;
   color: #fff;
   background-color: transparent;
   pointer-events: none;
+  margin-left: 0;
 }
 
 .bio-pic {
@@ -225,8 +226,8 @@ button:hover {
   display: block;
   height: 12.5rem;
   margin: auto;
-  background-color: #2c2c2c53;
-  box-shadow: 0 3px 40px rgba(112, 112, 112, 0.231);
+  background-color: transparent;
+  box-shadow: 0 3px 40px rgba(0, 0, 0, 0.279);
   background-image: radial-gradient(rgba(203, 203, 203, 0.501) 1px, transparent 0);
   background-size: 2.5rem 2.5rem;
   border-radius: 1.5rem;
